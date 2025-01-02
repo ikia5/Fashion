@@ -1,0 +1,55 @@
+.sideMenu{
+    display: flex;
+    height: 100vh;
+    background-image: url(../Assets/banner-bg.png);
+    background-size: cover;
+}
+
+.sideMenu-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 100px;
+    line-height: 1.1;
+}
+
+.sideMenu-left h2{
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.sideMenu-left p{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.hand-icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hand-icon img{
+    width: 40px;
+}
+
+.latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: rgb(255, 85, 0);
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_logo img{
+    margin-top: 50px;
+    align-items: center;
+    width: 200px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 50px;
+    color: gray;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.footer-links li{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: white;
+    border: 1px solid white;
+}
+
+.phone-contact{
+    display: flex;
+    color: gray;
+    gap: 20px;
+}
+
+.phone-contact span{
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.phone-contact p{
+    font-size: 20px;
+}

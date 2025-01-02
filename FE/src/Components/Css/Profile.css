@@ -1,0 +1,71 @@
+.profile-main{
+    width: 100%;
+    padding-top: 80px;
+    height: 650px;
+    background: rgb(221, 221, 221);
+}
+
+.profile-container{
+    width: 580px;
+    height: 450px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 10px;
+}
+
+.profile-container h2{
+    margin: 20px 0px;
+    color: rgb(91, 91, 91);
+}
+
+.profile-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.profile-profile input{
+    height: 40px;
+    width: 95%;
+    padding-left: 30px;
+    border: 1px solid coral;
+    outline: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.update{
+    width: 585px;
+    height: 40px;
+    color: white;
+    background: coral;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.orders{
+    width: 585px;
+    height: 40px;
+    color: white;
+    background: coral;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.delete{
+    width: 585px;
+    height: 40px;
+    color: coral;
+    background: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}

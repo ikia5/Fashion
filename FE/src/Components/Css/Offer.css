@@ -1,0 +1,39 @@
+.offer{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.offer h1{
+    color: rgb(52, 52, 52);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.offer hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(113, 113, 113);
+}
+
+.collection{
+    margin-left: 20px;
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.collection img{
+    width: 320px;
+    height: 400px;
+}
+
+.collection h2{
+    margin-top: 30px;
+    color: gray;
+    font-size: 40px;
+}

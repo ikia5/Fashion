@@ -1,0 +1,80 @@
+.login-main{
+    width: 100%;
+    padding-top: 80px;
+    height: 90vh;
+    background: rgb(221, 221, 221);
+}
+
+.login-container{
+    width: 580px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 10px;
+}
+
+.login-container h2{
+    margin: 20px 0px;
+    color: rgb(91, 91, 91);
+}
+
+.login-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.login-login input{
+    height: 40px;
+    width: 95%;
+    padding-left: 30px;
+    border: 1px solid coral;
+    outline: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.login-container button{
+    width: 585px;
+    height: 40px;
+    color: white;
+    background: coral;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.register{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.register span{
+    color: coral;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.register span:active{
+    color: rgb(255, 192, 124);
+}
+
+.login{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.login span{
+    color: coral;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login span:active{
+    color: rgb(255, 192, 124);
+}
