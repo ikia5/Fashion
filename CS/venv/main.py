@@ -7,7 +7,7 @@ from flask_cors import CORS
 from sklearn.cluster import KMeans
 
 #       Data from mongodb
-uri = "mongodb+srv://duong3456789:1111@cluster0.x76l8mw.mongodb.net/fashion?retryWrites=true&w=majority"
+uri = " ----------- YOUR DATABASE URL ----------- "
 client = MongoClient(uri)
 db = client.fashion
 collection = db.products
