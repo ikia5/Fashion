@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 //       Connect to MongoDB
-mongoose.connect("mongodb+srv://duong3456789:1111@cluster0.x76l8mw.mongodb.net/fashion");
+mongoose.connect(" ----------- YOUR DATABASE URL ----------- ");
 
 //       API
 app.get("/", (req, res)=>{
